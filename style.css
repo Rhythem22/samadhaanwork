@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+h2 {
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFB800
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48.76px;
+    color: #000000;
+}
+
+p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42.67px;
+    color: #000000; /*can be changed later*/
+}
+
+li{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39.6px;
+    color: #000000 ;/*can be changed later*/
+}
+
+.card {
+    width: 45%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    
+}
+
+.desc {
+    padding: 10px;
+}
+hr{
+    height:1.5px;
+    color: black; /*can be changed later*/
+}
+.getcourse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    h3{
+        font-family:'Montserrat';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.76px;
+        color: rgb(0, 0, 0);
+        padding-left: 20px;
+    }
+    img{
+        padding-right:20px;
+    }
+}
